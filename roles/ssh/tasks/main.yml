@@ -1,0 +1,7 @@
+---
+- name: Add SSH public key to root
+  ansible.posix.authorized_key:
+    user: root
+    key: "{{ lookup('file', './' + ssh_public_key) }}"
+  tags:
+    - ssh

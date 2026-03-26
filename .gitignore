@@ -1,0 +1,6 @@
+host_vars/*
+!host_vars/sample
+group_vars/all
+!group_vars/all.example
+keys.pub
+*.retry

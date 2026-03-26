@@ -1,0 +1,5 @@
+[master]
+localhost ansible_connection=local ansible_python_interpreter=.venv/bin/python3
+
+[nodes]
+#example-LAX-edge1.example.com location=LAX bgp_enabled=True plan='VR8x4x50'
